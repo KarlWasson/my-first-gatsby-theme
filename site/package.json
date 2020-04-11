@@ -1,0 +1,12 @@
+// private is set to true because we won't be publishing this on NPM
+// name corrisponds to yarn workspace in this case it's our site folder 
+{
+  "private": true,
+  "name": "site",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "clean": "gatsby clean"
+  }
